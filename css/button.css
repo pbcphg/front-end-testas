@@ -1,0 +1,31 @@
+.form-row > button {
+  margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background: #3C54F2;
+    background: linear-gradient(47deg, #234ad5 0%, #0265de 100%);
+    color: #fff;
+    border: #3C54F2;
+    border-style: groove;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 #0005;
+    cursor: pointer;
+    border-width: 1px;
+  }
+  .form-row > button:hover {
+    box-shadow: 0 4px 8px 0 #0008;
+  }
+
+  .form-row.flex-row {
+    flex-direction: row;
+    gap: 25px;
+    width: 80%;
+
+  }
+
+  .form-row.flex-row > button:last-of-type {
+      color: #3C54F2;
+      background: white;
+  }
