@@ -4,38 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fcuksense</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/button.css">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/button.css">
 </head>
-<body>
     <body>
         <main>
             <div class="left-column">
+                <h1>Fcuksense</h1>
+                <p class= "travel">Artificial Intelligence Driving Results For The Travel Industry</p>
+                <p class= "back">Welcome, please register:</p>
+                </p>
                 <form class="form">
                     <div class="form-row">
+                        <label for="username">Username</label>
+                        <input id="username" placeholder="Username" type="text" required>
+                    </div>
+                    <div class="form-row">
                         <label for="email">Email Adress</label>
-                        <input id="email" placeholder="Email..." type="email" required>
+                        <input id="email" placeholder="Email adress" type="email" required>
                     </div>
                     <div class="form-row">
                         <label for="pass">Password</label>
                         <input id="pass" placeholder="Password" type="password" required>
                     </div>
-                    <div class="form-row flex-row">
-                        <button type="submit">Login</button>
-                        <a href="./sign-in/index.html">Sign up</a>
+                    <div class="form-row">
+                        <label for="pass">Repeat password</label>
+                        <input id="pass" placeholder="Repeat password" type="password" required>
+                    </div>
+                    <div class= "form-row flex-row">
+                        <button type="submit">Sign up</button>
+                        <button type="submit" formaction="../index.html">Login</button>
                     </div>
                 </form>
-                <div>
-                    <p>Or login with</p>
+                <div class = "socials">
+                    <p>Or register with</p>
                     <a href="#" target="_blank">Facebook</a>
                     <a href="#" target="_blank">Linkedin</a>
                     <a href="#" target="_blank">Google</a>    
                 </div>
             </div>
-            <div class="right-column"></div>
+            <div class="right-column">
+                <img src="../img/dreams.jpg" alt="dreams">
+            </div>
         </main>
     </body>
-</body>
 </html>

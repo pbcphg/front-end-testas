@@ -1,11 +1,11 @@
 .form-row > button {
-  margin-top: 70px;
+    margin-top: 30px;
     padding-left: 40px;
     padding-right: 40px;
     line-height: 40px;
     font-size: 18px;
     background: #3C54F2;
-    background: linear-gradient(47deg, #234ad5 0%, #0265de 100%);
+    background: linear-gradient(150deg, #8f1a85 0%, #0265de 100%);
     color: #fff;
     border: #3C54F2;
     border-style: groove;

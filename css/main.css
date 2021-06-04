@@ -8,7 +8,6 @@ body * {
 }
 
 body {
-  background-color: green;
 }
 
 
@@ -21,15 +20,26 @@ main {
 .left-column {
     display: inline-block;
     position: absolute;
-    background-color: aqua;
     width: 30%;
     float: left;
     top: 50px;
     left: 150px;
     bottom: 50px;
     right: 50px;
+}
 
+.travel {
+    font-size: 40px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
 
+.back {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    color: grey;
 }
 
 
@@ -53,7 +63,7 @@ main {
 .socials{
     display: flex;
     flex-direction: row;
-    margin-top: 110px;
+    margin-top: 60px;
     color: grey;
 }
 
