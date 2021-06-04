@@ -10,15 +10,7 @@ Site published at https://pbcphg.github.io/front-end-testas
 
 Design: [Fcuksense](https://cdn.discordapp.com/attachments/850245533838868480/850246623883034644/login_screen.png)
 
-## Project features
 
-- Github pages
-- multi-page (sign up, sign in, forgot password)
-- desktop only
-- absolute center
-- css blur
-- form
-
-## Authors
+## Author
 
 [Žygimantas](https://github.com/pbcphg)
