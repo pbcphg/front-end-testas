@@ -9,15 +9,37 @@
     flex-direction: column;
     gap: 10px;
     width: 50%;
+    position: relative;
   }
+
+
 
  
   .form-row > input {
-    line-height: 40px;
+    line-height: 60px;
     font-size: 20px;
     border: none;
-    border-bottom: 1px solid #ccc;
-  }
+    border: 1px solid #9c9fb8;
+    position: relative;
+    }
+
+    .form-row > label {
+      position: ;
+      left: 12px;
+      top: 9px;
+      width: 100%;
+      position: absolute;
+    }
+
+    .form-row > input:focus {
+      border-left: 5px solid #3752FD;
+      outline: none;
+      padding-left: 10px;
+    }
+
+
+
+
 
 
   .form-row > a {
@@ -27,3 +49,4 @@
     color: #3C54F2;
   }
 
+ 
